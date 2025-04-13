@@ -1,0 +1,83 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  background: linear-gradient(135deg, #fceff9, #e0f7fa);
+  color: #333;
+  line-height: 1.6;
+  padding: 2rem;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Typography */
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-transform: lowercase;
+}
+h2 {
+  font-size: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  text-transform: lowercase;
+}
+h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+.highlight {
+  color: #ec4899;
+}
+
+/* Sections */
+header, section {
+  margin-bottom: 2.5rem;
+}
+.project {
+  background: white;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+.project:hover {
+  transform: scale(1.02);
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #ec4899;
+  color: white;
+  padding: 0.7rem 1.2rem;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+.btn:hover {
+  background: #db2777;
+}
+
+/* Contact & Footer */
+a {
+  color: #ec4899;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+footer {
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 0.9rem;
+  color: #666;
+}
